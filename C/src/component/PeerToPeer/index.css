@@ -1,0 +1,83 @@
+.peertopeerHeading
+{
+    display: flex;
+    padding-top: 2rem;
+}
+
+
+.peertopeerHeading h1
+{
+    padding: 1rem 0;
+    border-bottom: 1px solid grey;
+    width: 60%;
+    margin-left: 15%;
+}
+
+.peertopeerHeading button
+{
+    margin-left: 2rem;
+    padding: 0rem 1.5rem;
+    background-color: #2d3436;
+    color: white;
+    cursor: pointer;
+}
+
+.ptopTopics
+{
+    margin-top: 8vh;
+}
+
+.ptopTopic
+{
+    margin-left: 15%;
+}
+.ptopTopic a
+{
+    text-decoration: none; 
+    color: #2d3436;   
+}
+.ptopTopic h1
+{
+    font-size: 2rem;
+    margin-right: 15%;
+    margin-bottom: 2.5rem;
+    cursor: pointer;
+}
+
+.ptopTopic h1:hover
+{
+    color: #636e72;
+}
+
+.addPtpTopic
+{
+    margin-top: 2rem;
+}
+
+.addPtpTopic input
+{
+    width: 50%;
+    padding: 1rem;
+    outline: none;
+    margin-left: 20%;
+}
+
+.addPtpTopic button
+{
+    padding: 1rem 1.5rem;
+    margin-left: 0.6rem;
+    background-color: #2d3436;
+    color: white;
+    outline: none;
+    cursor: pointer;
+
+}
+
+
+/********************Peer to Peer Detail page *********************/
+.ptpDetailHeading
+{
+    padding: 1rem 0;
+    margin: 2rem 5rem;
+    border-bottom: 2px solid gray;
+}

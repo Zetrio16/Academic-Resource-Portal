@@ -1,0 +1,52 @@
+/* Light Mode */
+.faqHeading-light {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.faq-light {
+    width: 60%;
+    margin-left: 20%;
+    border: 1px solid #636e72;
+    border-bottom: none;
+}
+
+.faq-light h1 {
+    padding: 1rem;
+    background-color: #dfe6e96b;
+    border-bottom: 1px solid #636e72;
+    font-size: 1.1rem;
+}
+
+.faq-light p {
+    padding: 1rem;
+}
+
+/* Dark Mode */
+.faqHeading-dark {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2rem 0;
+    color: white;
+}
+
+.faq-dark {
+    width: 60%;
+    margin-left: 20%;
+    border: 1px solid #bdc3c7;
+    border-bottom: none;
+    background-color: #2d3436;
+    color: white;
+}
+
+.faq-dark h1 {
+    padding: 1rem;
+    background-color: #bdc3c7;
+    border-bottom: 1px solid #2d3436;
+    font-size: 1.1rem;
+}
+
+.faq-dark p {
+    padding: 1rem;
+}

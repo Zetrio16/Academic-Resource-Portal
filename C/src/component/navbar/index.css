@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+.upperNav-ul-light{
+    background-color: #0B60B0;
+    color: white;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    position: fixed; /* Set position to fixed */
+    top: 0;
+    left: 0;
+    width: 100%; /* Occupy full width */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+
+.upperNav-ul-light, .upperNav-ul-light li
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.2rem 0;
+}
+.mainLogo-light{
+    font-size:2rem;
+    font-weight: bold;
+    margin: 0.6rem 0;
+    margin-left: 3rem;
+}
+.userDetail-light
+{
+    margin-left: auto;
+    margin-right:4rem;
+}
+.userDetail-light p{
+    padding: 0 2rem;
+    font-weight: bold;
+}
+
+.loginButton-light
+{
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* *************************** SIDE NAVBAR CSS ******************* */
+.sideNavbar-light{
+    width: 16%;
+    background: #EEEDEB;
+    height: 92.6vh;
+    position: fixed;
+    left: 0;
+
+}
+
+.sideNavbar-light ul li
+{
+    /* border-bottom: 1.5px solid rgba(0, 0, 0, 0.313); */
+    text-align: center;
+}
+
+.sideNavbar-light ul{
+    margin-top: 2rem ;
+}
+
+.sideNavbar-light ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    justify-content: center;
+}
+
+.sideNavbar-light ul li a p
+{
+    margin-right: 3rem;
+    letter-spacing:0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.activeLink-light{
+    font-weight: bold;
+    color: #3498db;
+    border-left: 7px solid #0B60B0;
+}
+
+
+.upperNav-ul-dark {
+    background-color: #081F2A; /* Darker background */
+    color: white;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.upperNav-ul-dark,
+.upperNav-ul-dark li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.2rem 0;
+}
+
+.mainLogo-dark {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.6rem 0;
+    margin-left: 3rem;
+}
+
+.userDetail-dark {
+    margin-left: auto;
+    margin-right: 4rem;
+}
+
+.userDetail-dark p {
+    padding: 0 2rem;
+    font-weight: bold;
+}
+
+.loginButton-dark {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* SIDE NAVBAR CSS */
+
+.sideNavbar-dark {
+    width: 16%;
+    background: #222; /* Darker background */
+    height: 92.6vh;
+    position: fixed;
+    left: 0;
+}
+
+.sideNavbar-dark ul li {
+    text-align: center;
+}
+
+.sideNavbar-dark ul {
+    margin-top: 2rem;
+}
+
+.sideNavbar-dark ul li a {
+    text-decoration: none;
+    color: white; /* Text color changed to white */
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    justify-content: center;
+}
+
+.sideNavbar-dark ul li a p {
+    margin-right: 3rem;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activeLink-dark {
+    font-weight: bold;
+    color: #3498db;
+    border-left: 7px solid #081f2a; /* Adjusted border color */
+}
